@@ -5,7 +5,7 @@ prime_problem_js101_
   
  let count =0;
  
- for(let i=0;i<=num;i++){
+ for(let i=1;i<=num;i++){
      
  if(num%i==0){
       
@@ -19,12 +19,12 @@ prime_problem_js101_
 
 if(count ==2){
     
-console.log('its  not a prime number');
+console.log('its   a prime number');
    
  }
    else{
     
-console.log('its a priem number');
+console.log('its a not priem number');
    
    }
  
